@@ -224,6 +224,28 @@ h3 {
   color: white;
 }
 
+.list-educacion {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  padding: 1rem 0rem;
+  font-size: 1.25rem;
+  color: #ffffff;
+  text-align: left;
+  background-color: #0e0d0d;
+  border-bottom: #afaeaa solid 0.15rem;
+  border-radius: 0;
+  overflow-anchor: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out,
+    border-radius 0.15s ease;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+
 .about {
   background-color: #242424;
   color: white;
@@ -337,6 +359,11 @@ span.underline-heading {
 }
 .date {
   color: #e35d6a;
+  font-size: 0.8rem;
+}
+
+.extras {
+  color: #dfdfdf;
   font-size: 0.8rem;
 }
 
