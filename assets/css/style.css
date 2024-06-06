@@ -72,7 +72,7 @@ button:focus:not(:focus-visible) {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 100)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
 }
 a {
-  color: #e35d6a;
+  color: #ffffff;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
     border-color 0.15s ease-in-out;
@@ -83,10 +83,24 @@ a {
   font-size: 0.9rem;
 }
 a:hover {
-  color: #242424 !important;
+  color: #e35d6a !important;
 }
 a.disabled {
   color: #afaeaa !important;
+}
+a.link-contacto {
+  color: #e35d6a;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  font-size: 0.9rem;
+}
+a.link-contacto:hover {
+  color: #242424 !important;
 }
 
 /* Cards */
@@ -332,6 +346,21 @@ span.underline-heading {
   padding: 0.75rem 0.75rem 0.75rem 1.5rem;
 }
 
+/* Proyectos */
+.row {
+  --bs-gutter-x: 0rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  /* margin-right: calc(-0.5* var(--bs-gutter-x)); */
+  /* margin-left: calc(-0.5* var(--bs-gutter-x)); */
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.row img {
+  width: 100%;
+}
 /* X-Small devices (portrait phones, less than 576px) */
 /* No media query for `xs` since this is the default in Bootstrap */
 
