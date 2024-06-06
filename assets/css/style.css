@@ -223,6 +223,27 @@ h3 {
   background-color: #0e0d0d;
   color: white;
 }
+.list-educacion {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  padding: 1rem 0rem;
+  font-size: 1.25rem;
+  color: #ffffff;
+  text-align: left;
+  background-color: #0e0d0d;
+  border-bottom: #afaeaa solid 0.15rem;
+  border-radius: 0;
+  overflow-anchor: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out,
+    border-radius 0.15s ease;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
 
 .about {
   background-color: #242424;
@@ -340,6 +361,11 @@ span.underline-heading {
   font-size: 0.8rem;
 }
 
+.extras {
+  color: #dfdfdf;
+  font-size: 0.8rem;
+}
+
 /* Form */
 .form-control {
   border-radius: 0.75rem;
@@ -361,6 +387,32 @@ span.underline-heading {
 .row img {
   width: 100%;
 }
+
+/* Scroll to top */
+#middle {
+  margin-top: 500px;
+}
+#scrolltop {
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 99;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  background-color: #dc3545;
+  color: #fff;
+  cursor: pointer;
+  padding: 9px;
+  border-radius: 100px;
+  text-align: center;
+}
+#btn:hover {
+  background-color: white;
+}
+
 /* X-Small devices (portrait phones, less than 576px) */
 /* No media query for `xs` since this is the default in Bootstrap */
 
